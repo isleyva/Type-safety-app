@@ -14,7 +14,7 @@ function UserDisplay({ user }: Props) {
             </div>
             <div>
                 {user.messages.map((message, i) => <MessageDisplay key={i} index={i} message={message} />)}
-        </div>
+            </div>
         </div>
 
     )
